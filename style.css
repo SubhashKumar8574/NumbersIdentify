@@ -1,0 +1,111 @@
+/* RESET classes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+/* utitlity classes */
+.flex {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* header section */
+#header {
+    background-color: blueviolet;
+    color: aliceblue;
+    padding-block: 12px;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+
+/* nav-bar section */
+.nav-links {
+    block-size: auto;
+    font-size: 2.8rem;
+    padding-block: 10px;
+    list-style: none;
+}
+
+h5::before {
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    width: 0.5em;
+    font-size: 45px;
+}
+
+#even-btn::before {
+    color: red;
+}
+
+#odd-btn::before {
+    color: purple;
+}
+
+#prime-btn::before {
+    color: green;
+}
+
+
+/* main section */
+#main {
+    margin-block: 50px;
+    padding: 10px 50px;
+}
+
+li {
+    list-style: none;
+    width: 15rem;
+    height: 4rem;
+    line-height:60px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-block: 10px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.button-box {
+    align-self: flex-start;
+    margin-top: 50px;
+    flex-flow: wrap column;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 15px 50px;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: rgb(196, 196, 196);
+    color: blueviolet;
+}
+
+button:hover {
+    transition: 0.3s ease-out;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    background-color: rgba(196, 196, 196, 0.777);
+}
+
+/* footer section */
+footer{
+    padding: 25px 0;
+    background-color: black;
+}
+
+
+
