@@ -93,10 +93,12 @@ function restart() {
         alert("Sorry, Your box is already empty!!");
     }
     else {
-        confirm("Do You really want to restart?");
-        for (var i = 0, len = number.length; i < len; i++) {
-            number[i].innerText = "";
-            number[i].style.backgroundColor = "White";
+        if(confirm("Do You really want to restart?") == true){
+            for (var i = 0, len = number.length; i < len; i++) {
+                number[i].innerText = "";
+                number[i].style.backgroundColor = "White";
+            }
         }
+        
     }
 }
