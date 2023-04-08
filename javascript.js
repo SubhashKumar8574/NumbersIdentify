@@ -49,6 +49,7 @@ function color_odd() {
     }
 }
 
+
 // For check the prime numbers in list.
 function color_prime() {
     var coll = document.querySelectorAll("ul li");
