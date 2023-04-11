@@ -53,7 +53,7 @@ function color_odd() {
 // For check the prime numbers in list.
 function color_prime() {
     var coll = document.querySelectorAll("ul li");
-    for (var i = 0, len = coll.length; i < len; i++) {
+    for (var i = 0; i < coll.length; i++) {
         if (coll[i].innerText == "") {
             alert("Sorry, Your box is empty!!");
             break;
@@ -62,15 +62,21 @@ function color_prime() {
             if (coll[i].innerText <= 1) {
                 coll[i].style.backgroundColor = "white";
             }
-            for (var j = 2; j < coll[i].innerText; j++) {
-                if (coll[i].innerText % j == 0) {
-                    coll[i].style.backgroundColor = "white";
-                    break;
-                } else {
-                    coll[i].style.backgroundColor = "green";
-                }
-
+            else if(coll[i].innerText == 2){
+                coll[i].style.backgroundColor = "green";
             }
+            else {
+                for (var j = 2; j < coll[i].innerText; j++) {
+                    if (coll[i].innerText % j == 0) {
+                        coll[i].style.backgroundColor = "white";
+                        break;
+                    }
+                    else {
+                        coll[i].style.backgroundColor = "green";
+                    }
+                }
+            }
+
         }
     }
 
@@ -80,10 +86,10 @@ function color_prime() {
             box++;
         }
     }
-    if (coll[0].innerText != "" && box == 0 ) {
+    if (coll[0].innerText != "" && box == 0) {
         alert("There is no prime number");
     }
-    
+
 }
 
 // For Restart the program.
