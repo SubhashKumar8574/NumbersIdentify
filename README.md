@@ -11,13 +11,13 @@ NOTE:- Numbers can only be generated randomly.
  The project
 
 ```bash
-Project link: https://subhashkumar8574.github.io/NumbersIdentify/
+https://subhashkumar8574.github.io/NumbersIdentify/
 ```
 
 Go to the project directory
 
 ```bash
-Github page:  https://github.com/SubhashKumar8574/NumbersIdentify
+https://github.com/SubhashKumar8574/NumbersIdentify
 ```
 
 
