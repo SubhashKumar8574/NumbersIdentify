@@ -8,13 +8,13 @@ NOTE:- Numbers can only be generated randomly.
 
 ## Run Locally
 
- The project
+ The project link :
 
 ```bash
 https://subhashkumar8574.github.io/NumbersIdentify/
 ```
 
-Go to the project directory
+Go to the project directory :
 
 ```bash
 https://github.com/SubhashKumar8574/NumbersIdentify
