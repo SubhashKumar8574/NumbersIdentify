@@ -3,8 +3,8 @@
 # Number's Identify
 
 It helps to know which number is even, odd and prime with the help of colours. 
-
-NOTE:- Numbers can only be generated randomly.
+ * For Sequentially Check - Generate Sequential numbers with the help of Serial no. Button.
+ * For Randomly Check - Generate Random numbers with the help of Start Button.
 
 
 ## Run Locally
@@ -15,7 +15,7 @@ NOTE:- Numbers can only be generated randomly.
 https://subhashkumar8574.github.io/NumbersIdentify/
 ```
 
-Go to the project directory :
+ Go to the project directory :
 
 ```bash
 https://github.com/SubhashKumar8574/NumbersIdentify
@@ -36,35 +36,35 @@ https://github.com/SubhashKumar8574/NumbersIdentify
 
 ## Screenshots
 
-### Start Page
+### Starting Page
 
 ![](https://raw.githubusercontent.com/SubhashKumar8574/NumbersIdentify/235799382e834968f9fd96dba4ea403133f1daa4/Screenshots/Start%20Page.png)
 
-### Prime Number Sequentially
+### For Sequentially
+
+#### Prime Number 
 
 ![](https://raw.githubusercontent.com/SubhashKumar8574/NumbersIdentify/235799382e834968f9fd96dba4ea403133f1daa4/Screenshots/Prime%20Serial%20Number.png)
 
-### odd Number Sequentially
+#### Odd Number 
 
 ![](https://raw.githubusercontent.com/SubhashKumar8574/NumbersIdentify/235799382e834968f9fd96dba4ea403133f1daa4/Screenshots/Odd%20Serial%20Number.png)
 
-### even Number Sequentially
+#### Even Number 
 
 ![](https://raw.githubusercontent.com/SubhashKumar8574/NumbersIdentify/235799382e834968f9fd96dba4ea403133f1daa4/Screenshots/Even%20Serial%20number.png)
 
-### random Number 
+### For Randomly 
 
-![](https://raw.githubusercontent.com/SubhashKumar8574/NumbersIdentify/235799382e834968f9fd96dba4ea403133f1daa4/Screenshots/Random%20Number.png)
-
-### prime Number randomly
+#### Prime Number 
 
 ![](https://raw.githubusercontent.com/SubhashKumar8574/NumbersIdentify/235799382e834968f9fd96dba4ea403133f1daa4/Screenshots/Prime%20random%20number.png)
 
-### odd Number randomly
+#### Odd Number
 
 ![](https://raw.githubusercontent.com/SubhashKumar8574/NumbersIdentify/235799382e834968f9fd96dba4ea403133f1daa4/Screenshots/Odd%20random%20number.png)
 
-### even Number randomly
+#### Even Number
 
 ![](https://raw.githubusercontent.com/SubhashKumar8574/NumbersIdentify/235799382e834968f9fd96dba4ea403133f1daa4/Screenshots/Even%20random%20number.png)
 
